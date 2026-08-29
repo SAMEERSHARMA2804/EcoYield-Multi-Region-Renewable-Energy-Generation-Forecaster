@@ -40,9 +40,5 @@ To make the model accessible and easy to use, a web application was developed us
 - Visualization: The app includes visual elements to enhance the user experience, such as displaying relevant images and output results.
 - This deployment makes the model practical and accessible, allowing users to leverage the power of machine learning for solar energy forecasting.
 
-## Contact
 
-**MA Rahman**
-
-[LinkedIn](https://www.linkedin.com/in/rahman17309/) | [Email](mailto:rahmandatascience09@gmail.com)
  
