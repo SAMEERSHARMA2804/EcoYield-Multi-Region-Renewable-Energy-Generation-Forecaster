@@ -1,44 +1,66 @@
-# Solar-Power-Prediction
+# EcoYield: Multi-Region Renewable Energy Generation Forecaster
 
-![Demo Video](https://waareeimages.s3.ap-south-1.amazonaws.com/Scope_of_Solar_Energy_in_India_8c53c636d2.png)
+An end-to-end machine learning application designed to accurately forecast solar power generation using historical weather and environmental data. Built to optimize energy production, plan resource allocation, and support decision-making in solar energy management.
 
-## Demo Video
+## 🚀 Project Objective
+The objective of this project is to accurately predict solar power generation using historical weather and environmental data. By leveraging machine learning, specifically the Gradient Boosting algorithm, the project aims to provide reliable predictions of the power output from solar panels to support effective solar energy management.
 
-[Watch the Demo Video](https://youtu.be/sFNEGxjOMiI?si=l29N0xLx2-k_Cp5z)
+---
 
-## Project Objective
+## 🛠️ Tech Stack
+* **Language:** Python
+* **Machine Learning:** Scikit-Learn, Gradient Boosting Regressor, Pandas, NumPy
+* **Data Visualization & Interface:** Streamlit, Matplotlib, Plotly
+* **Version Control:** Git & GitHub
 
-The objective of this project is to accurately predict solar power generation using historical weather and environmental data. By leveraging machine learning, specifically the Gradient Boosting algorithm, the project aims to provide reliable predictions of the power output from solar panels. This can be used to optimize energy production, plan resource allocation, and support decision-making in solar energy management.
+---
 
-## Exploratory Data Analysis (EDA)
-Extensive Exploratory Data Analysis (EDA) was conducted to understand the relationships between various weather parameters and solar power generation. Key steps in the EDA process included:
+## 📊 Exploratory Data Analysis (EDA)
+Extensive Exploratory Data Analysis (EDA) was conducted to understand the relationships between various weather parameters and solar power generation. Key steps included:
+* **Data Cleaning:** Handling missing values and outliers to ensure top-tier data quality.
+* **Feature Engineering:** Creating new features such as average wind speed and pressure over specific periods to enhance model performance.
+* **Data Visualization:** Utilizing plots and graphs to explore correlations between features like temperature, humidity, wind speed, and power generation.
 
-- Data Cleaning: Handling missing values and outliers to ensure data quality.
-- Feature Engineering: Creating new features such as average wind speed and pressure over specific periods to enhance model performance.
-- Data Visualization: Utilizing plots and graphs to explore correlations between features like temperature, humidity, wind speed, and power generation.
-  
-These insights helped in selecting the most relevant features for model training and in understanding the underlying patterns in the data.
+These insights helped select the most relevant features for model training and uncover underlying patterns in the dataset.
 
-## Model Implementation
+---
 
-The predictive model was built using the Gradient Boosting algorithm, a powerful machine learning technique that combines the predictions of several base estimators to improve accuracy and robustness. The model was trained on historical data, capturing the complex interactions between different weather parameters to predict solar power output.
+## 🤖 Model Implementation
+The predictive model was built using the Gradient Boosting algorithm, a powerful machine learning technique that combines the predictions of several base estimators to improve accuracy and robustness. 
 
-## Key aspects of the model implementation include:
+* **Model Training:** The Gradient Boosting Regressor was trained on the preprocessed data, optimizing hyperparameters to achieve peak performance.
+* **Model Evaluation:** Evaluated using metrics like Mean Squared Error (MSE) and R-squared (R²) to ensure high accuracy and reliability.
 
-- Model Training: The Gradient Boosting Regressor was trained on the preprocessed data, optimizing hyperparameters to achieve the best performance.
-- Model Evaluation: The model was evaluated using metrics like Mean Squared Error (MSE) and R-squared (R²) to ensure its accuracy and reliability.
-  
-## Deployment Using Streamlit
+---
 
-To make the model accessible and easy to use, a web application was developed using Streamlit. The app provides a user-friendly interface where users can input relevant weather data and instantly receive predictions for solar power generation.
+## 💻 Deployment Using Streamlit
+To make the model accessible and easy to use, a web application was developed using Streamlit, providing a user-friendly interface where users can input weather data and instantly receive predictions.
+
+* **Interactive Input Form:** Users can enter parameters such as temperature, wind speed, and sky cover.
+* **Real-Time Predictions:** Processes input data to display predicted power generation in kilowatts instantly.
+* **Dynamic Visualization:** Includes visual elements to enhance user experience, displaying relevant insights and output results.
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/SAMEERSHARMA2804/EcoYield-Renewable-Forecaster.git](https://github.com/SAMEERSHARMA2804/EcoYield-Renewable-Forecaster.git)
+   cd EcoYield-Renewable-Forecaster
+   Install dependencies:
+
+Bash
+pip install -r requirements.txt
+Run the Streamlit application:
+
+Bash
+streamlit run app.py
 
 
-## Key features of the deployment include:
 
-- Interactive Input Form: Users can enter parameters such as temperature, wind speed, and sky cover.
-- Real-Time Predictions: The model processes the input data and displays the predicted power generation in kilowatts.
-- Visualization: The app includes visual elements to enhance the user experience, such as displaying relevant images and output results.
-- This deployment makes the model practical and accessible, allowing users to leverage the power of machine learning for solar energy forecasting.
+👤 Author
+Sameer Sharma
 
+B.Tech CSE (Data Science) | Ex-Paytm Data & ML Intern
 
- 
